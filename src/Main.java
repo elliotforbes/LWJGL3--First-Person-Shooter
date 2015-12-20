@@ -36,6 +36,8 @@ public class Main implements Runnable{
 		glfwMakeContextCurrent(window);
 		glfwShowWindow(window);
 		
+		GL.createCapabilities();
+		
 		
 		
 	}
